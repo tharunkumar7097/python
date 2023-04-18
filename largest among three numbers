@@ -1,9 +1,9 @@
 a=int(input("first number"))
 b=int(input("second number"))
 c=int(input("third number"))
-if(a>b & a>c):
+if(a>b and a>c):
   print("The greatest number is",a)
 elif(b>a):
   print("the greatest number is",b)
- else:
+else:
   print("the greatest number is",c)
